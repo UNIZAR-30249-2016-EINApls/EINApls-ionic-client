@@ -3,3 +3,10 @@
 .bar-header {
     /* min-height: 70px; */
 }
+
+.fill-height > .scroll {
+  height: 100% !important;
+}
+.fill-height > .scroll > #main-map {
+  height: 100% !important;
+}

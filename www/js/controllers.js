@@ -9,6 +9,10 @@ angular.module('starter.controllers', [])
   //$scope.$on('$ionicView.enter', function(e) {
   //});
 
+  $scope.showModal = function(msg) {
+    window.alert(msg);
+  }
+
   // Form data for the login modal
   $scope.loginData = {};
 
@@ -52,5 +56,16 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('MapCtrl', function($scope, $stateParams) {
+
+    var map = new L.map('main-map');
+
+    // create the tile layer with correct attribution
+	var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+	var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+	var osm = new L.TileLayer(osmUrl, { minZoom: 13, maxZoom: 20, attribution: osmAttrib });		
+
+    map.setView([41.68337, -0.8883134], 18);
+    map.addLayer(osm)
+    
 });
