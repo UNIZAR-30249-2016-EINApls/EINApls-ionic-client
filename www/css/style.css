@@ -1,9 +1,5 @@
 /* Empty. Add your own CSS if you like */
 
-.bar-header {
-    /* min-height: 70px; */
-}
-
 .fill-height > .scroll {
   height: 100% !important;
 }
