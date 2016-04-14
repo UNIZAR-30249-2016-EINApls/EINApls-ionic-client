@@ -30,6 +30,7 @@ angular.module('starter.controllers', [])
 
     // Create map
     var control;
+    var serverData = {}
     var map = new L.map('main-map', { zoomControl: false, crs: L.CRS.EPSG3857 });
     new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
     map.attributionControl.setPrefix('');
@@ -49,129 +50,137 @@ angular.module('starter.controllers', [])
 
     // Custom layers
     var ada1 = {
-            vect: L.geoJson("", { style: function (feature) {
-                return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            }}),
-            wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-                layers: 'proyecto:adabyron_1_mer3',
-                format: 'image/png',
-                transparent: true
-            })
-        }
-        $http.get("/data/AdaByron_1_ULT.json")
-            .success(function (data) { ada1.vect.addData(data); });
-
-        var ada2 = {
-            vect: L.geoJson("", { style: function (feature) {
-                return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            }}),
-            wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-                layers: 'proyecto:adabyron_2_mer3',
-                format: 'image/png',
-                transparent: true
-            })
-        }
-        $http.get("/data/AdaByron_2_ULT.json")
-            .success(function (data) { ada2.vect.addData(data); });
-
-        var ada3 = {
-            vect: L.geoJson("", { style: function (feature) {
-                return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            }}),
-            wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-                layers: 'proyecto:adabyron_3_mer3',
-                format: 'image/png',
-                transparent: true
-            })
-        }
-        $http.get("/data/AdaByron_3_ULT.json")
-            .success(function (data) { ada3.vect.addData(data); });
-
-        var ada4 = {
-            vect: L.geoJson("", { style: function (feature) {
-                return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            }}),
-            wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-                layers: 'proyecto:adabyron_4_mer3',
-                format: 'image/png',
-                transparent: true
-            })
-        }
-        $http.get("/data/AdaByron_4_ULT.json")
-            .success(function (data) { ada4.vect.addData(data); });
-
-        var ada5 = {
-            vect: L.geoJson("", { style: function (feature) {
-                return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            }}),
-            wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-                layers: 'proyecto:adabyron_5_mer3',
-                format: 'image/png',
-                transparent: true
-            })
-        }
-        $http.get("/data/AdaByron_5_ULT.json")
-            .success(function (data) { ada5.vect.addData(data); });
-
-        var torres1 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-            layers: 'proyecto:torres_1_mer3',
+        vect: L.geoJson("", { style: function (feature) {
+            return { weight: 1, color: "#008833", opacity: 0.50 }
+        }}),
+        interactive: L.geoJson("", { style: function (feature) {
+            return { weight: 1, color: "#ff0000", opacity: 1 }
+        }}),
+        cafe: L.marker([41.6836, -0.88865]).bindPopup('<strong>Capacidad: </strong>' + (serverData.coffeeCap || '-') + '<br><strong>Ocupacion:</strong>' + (serverData.coffeeOcu || '-')),
+        wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+            layers: 'proyecto:adabyron_1_mer3',
             format: 'image/png',
             transparent: true
         })
+    }
+    $http.get("/data/AdaByron_1_ULT.json")
+        .success(function (data) { console.log(data); ada1.vect.addData(data); });
+    $http.get("/data/Cafeteria.json")
+        .success(function (data) { console.log(data); ada1.interactive.addData(data); });
+    $http.get("http://localhost:8888/cafeteria")
+        .success(function (data) { console.log(data);  });
 
-        var torres2 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-            layers: 'proyecto:torres_2_mer3',
+    var ada2 = {
+        vect: L.geoJson("", { style: function (feature) {
+            return { weight: 1, color: "#0088ff", opacity: 0.50 }
+        }}),
+        wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+            layers: 'proyecto:adabyron_2_mer3',
             format: 'image/png',
             transparent: true
         })
+    }
+    $http.get("/data/AdaByron_2_ULT.json")
+        .success(function (data) { ada2.vect.addData(data); });
 
-        var torres3 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-            layers: 'proyecto:torres_3_mer3',
+    var ada3 = {
+        vect: L.geoJson("", { style: function (feature) {
+            return { weight: 1, color: "#0088ff", opacity: 0.50 }
+        }}),
+        wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+            layers: 'proyecto:adabyron_3_mer3',
             format: 'image/png',
             transparent: true
         })
+    }
+    $http.get("/data/AdaByron_3_ULT.json")
+        .success(function (data) { ada3.vect.addData(data); });
 
-        var torres4 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-            layers: 'proyecto:torres_4_mer3',
+    var ada4 = {
+        vect: L.geoJson("", { style: function (feature) {
+            return { weight: 1, color: "#0088ff", opacity: 0.50 }
+        }}),
+        wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+            layers: 'proyecto:adabyron_4_mer3',
             format: 'image/png',
             transparent: true
         })
+    }
+    $http.get("/data/AdaByron_4_ULT.json")
+        .success(function (data) { ada4.vect.addData(data); });
 
-        var torres5 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
-            layers: 'proyecto:torres_5_mer3',
+    var ada5 = {
+        vect: L.geoJson("", { style: function (feature) {
+            return { weight: 1, color: "#0088ff", opacity: 0.50 }
+        }}),
+        wms: new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+            layers: 'proyecto:adabyron_5_mer3',
             format: 'image/png',
             transparent: true
         })
+    }
+    $http.get("/data/AdaByron_5_ULT.json")
+        .success(function (data) { ada5.vect.addData(data); });
 
-        var floor1 = L.layerGroup([ada1.wms, ada1.vect, torres1]);
-        var floor2 = L.layerGroup([ada2.wms, ada2.vect, torres2]);
-        var floor3 = L.layerGroup([ada3.wms, ada3.vect, torres3]);
-        var floor4 = L.layerGroup([ada4.wms, ada4.vect, torres4]);
-        var floor5 = L.layerGroup([ada5.wms, ada5.vect, torres5]);
+    var torres1 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+        layers: 'proyecto:torres_1_mer3',
+        format: 'image/png',
+        transparent: true
+    })
 
-        // $http.get("/data/AdaByron_1_ULT.json")
-            // .success(function (data) {
-                // vect.addData(data);
-                // // control.addOverlay(L.geoJson(data, { style: function (feature) {
-                    // // return { weight: 1, color: "#0088ff", opacity: 0.50 }
-                // // }}), 'AdaByron 1');
-                // // L.geoJson(data, { style: function (feature) {
-                    // // return { weight: 1, color: "#0088ff", opacity: 0.50 }
-                // // }}).addTo(map);
-            // });
+    var torres2 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+        layers: 'proyecto:torres_2_mer3',
+        format: 'image/png',
+        transparent: true
+    })
+
+    var torres3 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+        layers: 'proyecto:torres_3_mer3',
+        format: 'image/png',
+        transparent: true
+    })
+
+    var torres4 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+        layers: 'proyecto:torres_4_mer3',
+        format: 'image/png',
+        transparent: true
+    })
+
+    var torres5 = new L.tileLayer.wms('http://62.101.185.123:9080/geoserver/wms', {
+        layers: 'proyecto:torres_5_mer3',
+        format: 'image/png',
+        transparent: true
+    })
+
+    var floor1 = L.layerGroup([ada1.wms, ada1.vect, ada1.cafe, torres1]);
+    var floor2 = L.layerGroup([ada2.wms, ada2.vect, torres2]);
+    var floor3 = L.layerGroup([ada3.wms, ada3.vect, torres3]);
+    var floor4 = L.layerGroup([ada4.wms, ada4.vect, torres4]);
+    var floor5 = L.layerGroup([ada5.wms, ada5.vect, torres5]);
+
+    // $http.get("/data/AdaByron_1_ULT.json")
+        // .success(function (data) {
+            // vect.addData(data);
+            // // control.addOverlay(L.geoJson(data, { style: function (feature) {
+                // // return { weight: 1, color: "#0088ff", opacity: 0.50 }
+            // // }}), 'AdaByron 1');
+            // // L.geoJson(data, { style: function (feature) {
+                // // return { weight: 1, color: "#0088ff", opacity: 0.50 }
+            // // }}).addTo(map);
+        // });
 
 
-        var baseLayers = {
-            'Planta 0': floor1,
-            'Planta 1': floor2,
-            'Planta 2': floor3,
-            'Planta 3': floor4,
-            'Planta 4': floor5
-        };
+    var baseLayers = {
+        'Planta 0': floor1,
+        'Planta 1': floor2,
+        'Planta 2': floor3,
+        'Planta 3': floor4,
+        'Planta 4': floor5
+    };
 
-        map.setView([INIT_LAT, INIT_LON], INIT_ZOOM);
-        control = L.control.layers(baseLayers);
-        control.addTo(map);
+    map.setView([INIT_LAT, INIT_LON], INIT_ZOOM);
+    control = L.control.layers(baseLayers);
+    control.addTo(map);
     baseLayers['Planta 0'].addTo(map);
 
     $scope.showAlert = function(msg) { window.alert(msg); };
