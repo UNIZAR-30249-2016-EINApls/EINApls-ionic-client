@@ -1,6 +1,6 @@
 angular.module('starter.services', [])
 
-.service('MapService', function() {
+.service('MapService', function($http) {
 
     var buildingInfo = {
         ADA_BYRON: {
@@ -55,13 +55,38 @@ angular.module('starter.services', [])
         getLayers: function(building) {
             var info = buildingInfo[building];
             var layers = [];
-            for (var i = 0; i < info.floors.length; i++) {
+            info.floors.forEach(function(item, i, floors) { // Important this callback to generate isolated scope
+                var vectorSpaces = L.geoJson('', {
+                    pointToLayer: function(feature, latlng) { return L.circleMarker(latlng, {
+                        weight: 1,
+                        radius: 8,
+                        color: '#000',
+                        fillColor: '#78ff00',
+                        opacity: 1,
+                        fillOpacity: 1
+                    })},
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup(
+                            '<p><strong>SPACE&nbsp;</strong><br>' + 
+                            '<strong>Type:&nbsp;</strong>' + 
+                            feature.properties.tipoEspacio + 
+                            '<br><strong>Occupation:&nbsp;</strong>' + 
+                            feature.properties.ocupacion + '</p>'
+                        );
+                    }
+                });
+                $http.get('http://localhost:8888/espacios/PISO_0/ADA_BYRON').then(
+                    function(response) { vectorSpaces.addData(response.data); },
+                    function(err) { console.log('Something bad happened', err); }
+                );
                 layers.push({
-                    name: info.floors[i].name,
+                    name: item.name,
                     layers: new L.LayerGroup([
+                        // Space markers
+                        vectorSpaces,
                         // WMS
                         new L.tileLayer.wms('http://192.168.1.45:8080/geoserver/eina-pls/wms', {
-                            layers: info.floors[i].wmsLayer,
+                            layers: item.wmsLayer,
                             format: 'image/png',
                             transparent: true,
                             crs: L.CRS.EPSG4326,
@@ -69,8 +94,8 @@ angular.module('starter.services', [])
                             minZoom: 15,
                         })
                     ])
-                })
-            }
+                });
+            })
             return layers;
         }
     };

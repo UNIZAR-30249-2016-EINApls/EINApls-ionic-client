@@ -18,7 +18,7 @@ angular.module('starter.controllers', ['starter.services'])
     var map = new L.map('main-map', {
         zoomControl: false
     });
-    map.options.minZoom = 17;
+    // map.options.minZoom = 17;
     map.options.maxZoom = 21;
     new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
     map.attributionControl.setPrefix('');
@@ -78,6 +78,7 @@ angular.module('starter.controllers', ['starter.services'])
 
     var currentLayers = [];
     var currentFloorIdx = 0;
+    var currentBuilding = '';
 
     function loadBuilding(buildingName) {
         if (currentLayers.length > 0) map.removeLayer(currentLayers[currentFloorIdx].layers);
@@ -85,6 +86,7 @@ angular.module('starter.controllers', ['starter.services'])
         map.setMaxBounds(MapService.getBounds(buildingName));
         $timeout(function() { map.fitBounds(MapService.getBounds(buildingName)); }, 500);
         currentFloorIdx = 0;
+        currentBuilding = buildingName;
         showFloor(0);
     }
 
