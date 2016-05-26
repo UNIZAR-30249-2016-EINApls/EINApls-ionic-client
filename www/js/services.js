@@ -67,10 +67,10 @@ angular.module('starter.services', [])
                     })},
                     onEachFeature: function(feature, layer) {
                         layer.bindPopup(
-                            '<p><strong>SPACE&nbsp;</strong><br>' + 
-                            '<strong>Type:&nbsp;</strong>' + 
-                            feature.properties.tipoEspacio + 
-                            '<br><strong>Occupation:&nbsp;</strong>' + 
+                            '<p><strong>SPACE&nbsp;</strong><br>' +
+                            '<strong>Type:&nbsp;</strong>' +
+                            feature.properties.tipoEspacio +
+                            '<br><strong>Occupation:&nbsp;</strong>' +
                             feature.properties.ocupacion + '</p>'
                         );
                     }
@@ -85,7 +85,7 @@ angular.module('starter.services', [])
                         // Space markers
                         vectorSpaces,
                         // WMS
-                        new L.tileLayer.wms('http://192.168.1.45:8080/geoserver/eina-pls/wms', {
+                        new L.tileLayer.wms('http://85.251.93.32:9080/geoserver/eina-pls/wms', {
                             layers: item.wmsLayer,
                             format: 'image/png',
                             transparent: true,
