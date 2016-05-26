@@ -14,6 +14,15 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
+$assertive:                       #aa3300 !default;
+/* $royal:                       #cc5533 !default; */
+/* $royal:                       #3DB386 !default; */
+$royal:                       #00D8AE !default;
+$dark:                       #334455 !default;
+$bar-height:                       56px !default;
+$bar-padding-portrait:                       8px !default;
+/* $header-height:                       56px !default; */
+/* $header-padding:                      8px !default; */
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
@@ -21,3 +30,10 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+
+.fill-height > .scroll {
+  height: 100% !important;
+}
+.fill-height > .scroll > #main-map {
+  height: 100% !important;
+}

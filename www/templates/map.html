@@ -5,15 +5,22 @@
 
 
 <ion-view view-title="Map">
+  <script id="my-modal.html" type="text/ng-template">
+    <ion-modal-view>
+      <ion-header-bar>
+        <h1 class="title">My Modal title</h1>
+      </ion-header-bar>
+      <ion-content>
+        Hello!
+      </ion-content>
+    </ion-modal-view>
+  </script>
   <ion-content class="fill-height">
     <div id="main-map"></div>
   </ion-content>
-  <!-- <ion-footer-bar class="bar-dark"> -->
-    <!-- [> <h1 class="title">Footer?</h1> <] -->
-      <!-- <div class="button-bar"> -->
-          <!-- <a class="button" ng-click="showAlert('Coming soon...')">Planta anterior</a> -->
-          <!-- <div class="button" ng-click="showAlert('Coming soon...')">Planta 1</div> -->
-          <!-- <a class="button" ng-click="showAlert('Coming soon...')">Planta siguiente</a> -->
-      <!-- </div> -->
-  <!-- </ion-footer-bar> -->
+  <ion-footer-bar class="bar-dark">
+      <button class="button button-icon ion-chevron-left" ng-if="!firstFloor()" ng-click="showPrevFloor()"></button>
+      <div class="title">{{ floorName }}</div>
+      <button class="button button-icon ion-chevron-right pull-right" ng-if="!lastFloor()" ng-click="showNextFloor()"></button>
+  </ion-footer-bar>
 </ion-view>

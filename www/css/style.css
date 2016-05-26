@@ -1,8 +1,0 @@
-/* Empty. Add your own CSS if you like */
-
-.fill-height > .scroll {
-  height: 100% !important;
-}
-.fill-height > .scroll > #main-map {
-  height: 100% !important;
-}
