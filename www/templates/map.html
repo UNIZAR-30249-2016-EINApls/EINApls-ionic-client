@@ -27,7 +27,7 @@
   <ion-content class="fill-height has-footer" data-tap-disabled="true">
     <div id="main-map"></div>
   </ion-content>
-  <ion-footer-bar class="bar-dark" ng-if="!addingIssue">
+  <ion-footer-bar align-title="center" class="bar-dark" ng-if="!addingIssue">
       <button class="button button-icon ion-chevron-down" ng-if="!firstFloor()" ng-click="showPrevFloor()"></button>
       <button class="button button-icon ion-chevron-up" ng-if="!lastFloor()" ng-click="showNextFloor()"></button>
       <div class="title">{{ floorName }}</div>
