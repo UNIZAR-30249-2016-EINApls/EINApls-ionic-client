@@ -10,31 +10,6 @@ angular.module('starter.controllers', ['starter.services'])
 
 .controller('MapCtrl', function($scope, $http, $ionicModal, $stateParams, $timeout, MapService) {
 
-    /* --- MODAL --- */
-
-    $ionicModal.fromTemplateUrl('my-modal.html', {
-        scope: $scope,
-        animation: 'slide-in-up'
-    }).then(function(modal) {
-        $scope.modal = modal;
-    });
-    $scope.openModal = function() {
-        $scope.modal.show();
-    };
-    $scope.closeModal = function() {
-        $scope.modal.hide();
-    };
-    // Cleanup the modal when we're done with it!
-    $scope.$on('$destroy', function() {
-        $scope.modal.remove();
-    });
-
-    /* --- VALUES --- */
-
-    var MIN_ZOOM = 15;
-    var MAX_ZOOM = 21;
-    var INIT_ZOOM = 18;
-
     /* --- MAP LOGIC --- */
 
     // Create map
@@ -43,6 +18,8 @@ angular.module('starter.controllers', ['starter.services'])
     var map = new L.map('main-map', {
         zoomControl: false
     });
+    map.options.minZoom = 17;
+    map.options.maxZoom = 21;
     new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
     map.attributionControl.setPrefix('');
 
@@ -126,8 +103,44 @@ angular.module('starter.controllers', ['starter.services'])
 
     loadBuilding('ADA_BYRON');
 
-    // map.on('click', function(event) {
-        // console.log(event);
-        // $scope.openModal();
-    // })
+    /* --- MODAL --- */
+
+    $ionicModal.fromTemplateUrl('my-modal.html', {
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.modal = modal;
+    });
+    $scope.openModal = function() {
+        $scope.modal.show();
+    };
+    $scope.closeModal = function() {
+        $scope.modal.hide();
+    };
+    // Cleanup the modal when we're done with it!
+    $scope.$on('$destroy', function() {
+        $scope.modal.remove();
+    });
+
+    map.on('click', function(event) {
+        if ($scope.addingIssue) {
+            $scope.newIssue = {};
+            $scope.newIssue.lat = event.latlng.lat;
+            $scope.newIssue.lon = event.latlng.lng;
+            $scope.openModal();
+            $scope.addingIssue = false;
+        }
+    })
+    $scope.enableAddingIssueMode  = function() { $scope.addingIssue = true; }
+    $scope.disableAddingIssueMode = function() { $scope.addingIssue = false; }
+    $scope.saveIssue = function() {
+        if (!$scope.newIssue.title || !$scope.newIssue.description) {
+            window.alert('Please, fill all the fields');
+        } else {
+            console.log('Saving ', $scope.newIssue);
+            $scope.closeModal();
+        }
+    }
+    $scope.cancelIssue = function() { $scope.closeModal(); }
+
 });
