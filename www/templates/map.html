@@ -18,7 +18,12 @@
             <input type="text" placeholder="Title" ng-model="newIssue.title">
           </label>
           <label class="item item-input">
-            <textarea placeholder="Comments" rows="10" ng-model="newIssue.description"></textarea>
+            <textarea placeholder="Write a description for the issue"
+                    rows="10"
+                    ng-model="newIssue.description"></textarea>
+          </label>
+          <label class="item item-input">
+            <input type="text" placeholder="Media" ng-model="newIssue.media">
           </label>
         </form>
       </ion-content>

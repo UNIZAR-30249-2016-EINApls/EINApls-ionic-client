@@ -8,7 +8,7 @@ angular.module('starter.controllers', ['starter.services'])
 
 })
 
-.controller('MapCtrl', function($scope, $http, $ionicModal, $stateParams, $timeout, MapService) {
+.controller('MapCtrl', function($scope, $http, $ionicModal, $stateParams, $timeout, MapService, IssueService) {
 
     /* --- MAP LOGIC --- */
 
@@ -37,44 +37,6 @@ angular.module('starter.controllers', ['starter.services'])
         // layers: 'PNOA',
         // format: 'image/png'
     // }).addTo(map);
-
-    // Custom layers
-    // var ada1 = {
-        // vect: L.geoJson("", { style: function (feature) {
-            // return { weight: 1, color: "#008833", opacity: 0.50 }
-        // }}),
-        // interactive: L.geoJson("", { style: function (feature) {
-            // return { weight: 1, color: "#ff0000", opacity: 1 }
-        // }}),
-        // cafe: L.marker([41.6836, -0.88865]).bindPopup('<strong>Capacidad: </strong>' + (serverData.coffeeCap || '-') + '<br><strong>Ocupacion:</strong>' + (serverData.coffeeOcu || '-')),
-        // wms: new L.tileLayer.wms('http://192.168.1.45:8080/geoserver/eina-pls/wms', {
-            // layers: 'einapls:adabyron_0',
-            // format: 'image/png',
-            // transparent: true,
-            // crs: L.CRS.EPSG4326,
-            // maxZoom: 21,
-            // minZoom: 15,
-        // })
-    // }
-    // $http.get("/data/AdaByron_1_ULT.json")
-        // .success(function (data) { console.log(data); ada1.vect.addData(data); });
-    // $http.get("/data/Cafeteria.json")
-        // .success(function (data) { console.log(data); ada1.interactive.addData(data); });
-    // // $http.get("http://localhost:8888/cafeteria")
-        // // .success(function (data) { console.log(data);  });
-
-    // // var floor1 = L.layerGroup([ada1.wms, ada1.vect, ada1.cafe, torres1]);
-
-    // $http.get("/data/AdaByron_1_ULT.json")
-        // .success(function (data) {
-            // vect.addData(data);
-            // // control.addOverlay(L.geoJson(data, { style: function (feature) {
-                // // return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            // // }}), 'AdaByron 1');
-            // // L.geoJson(data, { style: function (feature) {
-                // // return { weight: 1, color: "#0088ff", opacity: 0.50 }
-            // // }}).addTo(map);
-        // });
 
     var currentLayers = [];
     var currentFloorIdx = 0;
@@ -128,7 +90,7 @@ angular.module('starter.controllers', ['starter.services'])
         if ($scope.addingIssue) {
             $scope.newIssue = {};
             $scope.newIssue.lat = event.latlng.lat;
-            $scope.newIssue.lon = event.latlng.lng;
+            $scope.newIssue.lng = event.latlng.lng;
             $scope.openModal();
             $scope.addingIssue = false;
         }
@@ -139,7 +101,17 @@ angular.module('starter.controllers', ['starter.services'])
         if (!$scope.newIssue.title || !$scope.newIssue.description) {
             window.alert('Please, fill all the fields');
         } else {
-            console.log('Saving ', $scope.newIssue);
+            $scope.newIssue.building = currentBuilding;
+            $scope.newIssue.floor = currentFloorIdx;
+            IssueService.createIssue($scope.newIssue).then(
+                function(response) {
+                    loadBuilding(currentBuilding);
+                    $scope.closeModal();
+                },
+                function(response) {
+                    window.alert('Something went wrong', response.data);
+                }
+            );
             $scope.closeModal();
         }
     }
