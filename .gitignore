@@ -10,3 +10,5 @@ logs
 plugins/
 platforms/
 
+node_modules/
+
