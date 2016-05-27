@@ -135,11 +135,11 @@ angular.module('starter.services', [])
                                         layer.bindPopup(
                                             '<h5>ISSUE</h5><p>' +
                                             '<strong>Title:&nbsp;</strong>' +
-                                            issue.title +
+                                            issue.titulo +
                                             '<br><strong>Description:&nbsp;</strong>' +
-                                            issue.description +
+                                            issue.descripcion +
                                             '<br><strong>Media:&nbsp;</strong>' +
-                                            issue.media + '</p>'
+                                            issue.foto + '</p>'
                                         );
                                 }, function() {
                                     layer.bindPopup('Could not get server response')
