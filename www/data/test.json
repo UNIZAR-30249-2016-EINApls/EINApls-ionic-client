@@ -1,0 +1,2708 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [41.683292, -0.88851863]
+		},
+		"properties": {
+			"id": 6,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885127, 41.683292]
+		},
+		"properties": {
+			"id": 7,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884863, 41.683205]
+		},
+		"properties": {
+			"id": 8,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884075, 41.683292]
+		},
+		"properties": {
+			"id": 9,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884016, 41.683292]
+		},
+		"properties": {
+			"id": 10,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8883753, 41.683205]
+		},
+		"properties": {
+			"id": 11,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884719, 41.68344]
+		},
+		"properties": {
+			"id": 12,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88847196, 41.683445]
+		},
+		"properties": {
+			"id": 13,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884011, 41.683426]
+		},
+		"properties": {
+			"id": 14,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88847286, 41.68353]
+		},
+		"properties": {
+			"id": 15,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88847286, 41.683525]
+		},
+		"properties": {
+			"id": 16,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884077, 41.683506]
+		},
+		"properties": {
+			"id": 17,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884738, 41.683613]
+		},
+		"properties": {
+			"id": 18,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88847375, 41.68361]
+		},
+		"properties": {
+			"id": 19,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88840294, 41.68359]
+		},
+		"properties": {
+			"id": 20,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884747, 41.683697]
+		},
+		"properties": {
+			"id": 21,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88847464, 41.683693]
+		},
+		"properties": {
+			"id": 22,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88840383, 41.683674]
+		},
+		"properties": {
+			"id": 23,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884756, 41.68378]
+		},
+		"properties": {
+			"id": 24,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88847554, 41.683773]
+		},
+		"properties": {
+			"id": 25,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884047, 41.683758]
+		},
+		"properties": {
+			"id": 26,
+			"ocupacion": 0,
+			"tipoEspacio": "AULA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884659, 41.683994]
+		},
+		"properties": {
+			"id": 67,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884659, 41.68399]
+		},
+		"properties": {
+			"id": 68,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884661, 41.684013]
+		},
+		"properties": {
+			"id": 69,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88846606, 41.68401]
+		},
+		"properties": {
+			"id": 70,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88846636, 41.684032]
+		},
+		"properties": {
+			"id": 71,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884663, 41.68403]
+		},
+		"properties": {
+			"id": 72,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884451, 41.684032]
+		},
+		"properties": {
+			"id": 73,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.888445, 41.68403]
+		},
+		"properties": {
+			"id": 74,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88844484, 41.684013]
+		},
+		"properties": {
+			"id": 75,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884448, 41.68401]
+		},
+		"properties": {
+			"id": 76,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884446, 41.683994]
+		},
+		"properties": {
+			"id": 77,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884446, 41.68399]
+		},
+		"properties": {
+			"id": 78,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884234, 41.683994]
+		},
+		"properties": {
+			"id": 79,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884233, 41.68399]
+		},
+		"properties": {
+			"id": 80,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88842356, 41.684013]
+		},
+		"properties": {
+			"id": 81,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88842356, 41.68401]
+		},
+		"properties": {
+			"id": 82,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884238, 41.684032]
+		},
+		"properties": {
+			"id": 83,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88842374, 41.68403]
+		},
+		"properties": {
+			"id": 84,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884025, 41.684032]
+		},
+		"properties": {
+			"id": 85,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88840246, 41.68403]
+		},
+		"properties": {
+			"id": 86,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88840234, 41.684013]
+		},
+		"properties": {
+			"id": 87,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884023, 41.68401]
+		},
+		"properties": {
+			"id": 88,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884021, 41.683994]
+		},
+		"properties": {
+			"id": 89,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88840204, 41.68399]
+		},
+		"properties": {
+			"id": 90,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8883808, 41.683994]
+		},
+		"properties": {
+			"id": 91,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88838077, 41.68399]
+		},
+		"properties": {
+			"id": 92,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88838106, 41.684013]
+		},
+		"properties": {
+			"id": 93,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.888381, 41.68401]
+		},
+		"properties": {
+			"id": 94,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88838124, 41.684032]
+		},
+		"properties": {
+			"id": 95,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8883812, 41.68403]
+		},
+		"properties": {
+			"id": 96,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88833916, 41.684013]
+		},
+		"properties": {
+			"id": 97,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88833916, 41.68401]
+		},
+		"properties": {
+			"id": 98,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884137, 41.683987]
+		},
+		"properties": {
+			"id": 99,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88855046, 41.684036]
+		},
+		"properties": {
+			"id": 100,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885504, 41.684032]
+		},
+		"properties": {
+			"id": 101,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88855004, 41.684013]
+		},
+		"properties": {
+			"id": 102,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88855004, 41.68401]
+		},
+		"properties": {
+			"id": 103,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885501, 41.68399]
+		},
+		"properties": {
+			"id": 104,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88855004, 41.683987]
+		},
+		"properties": {
+			"id": 105,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885154, 41.683994]
+		},
+		"properties": {
+			"id": 106,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885154, 41.683987]
+		},
+		"properties": {
+			"id": 107,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885169, 41.684032]
+		},
+		"properties": {
+			"id": 108,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88851684, 41.68403]
+		},
+		"properties": {
+			"id": 109,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884865, 41.684032]
+		},
+		"properties": {
+			"id": 110,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88848644, 41.68403]
+		},
+		"properties": {
+			"id": 111,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884861, 41.683994]
+		},
+		"properties": {
+			"id": 112,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8884861, 41.68399]
+		},
+		"properties": {
+			"id": 113,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8885027, 41.683994]
+		},
+		"properties": {
+			"id": 114,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887623, 41.684032]
+		},
+		"properties": {
+			"id": 120,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88876224, 41.684025]
+		},
+		"properties": {
+			"id": 121,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88874143, 41.684032]
+		},
+		"properties": {
+			"id": 122,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887414, 41.684025]
+		},
+		"properties": {
+			"id": 123,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887189, 41.684032]
+		},
+		"properties": {
+			"id": 124,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88871884, 41.684025]
+		},
+		"properties": {
+			"id": 125,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886993, 41.684032]
+		},
+		"properties": {
+			"id": 126,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88869923, 41.68403]
+		},
+		"properties": {
+			"id": 127,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88867724, 41.684032]
+		},
+		"properties": {
+			"id": 128,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886772, 41.68403]
+		},
+		"properties": {
+			"id": 129,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886353, 41.684013]
+		},
+		"properties": {
+			"id": 130,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886352, 41.68401]
+		},
+		"properties": {
+			"id": 131,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886767, 41.684013]
+		},
+		"properties": {
+			"id": 132,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88867664, 41.68401]
+		},
+		"properties": {
+			"id": 133,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886985, 41.684013]
+		},
+		"properties": {
+			"id": 134,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88869846, 41.684006]
+		},
+		"properties": {
+			"id": 135,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88871986, 41.684013]
+		},
+		"properties": {
+			"id": 136,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887198, 41.684006]
+		},
+		"properties": {
+			"id": 137,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887409, 41.684013]
+		},
+		"properties": {
+			"id": 138,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887409, 41.684006]
+		},
+		"properties": {
+			"id": 139,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887623, 41.68401]
+		},
+		"properties": {
+			"id": 140,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88876224, 41.684006]
+		},
+		"properties": {
+			"id": 141,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88876253, 41.68399]
+		},
+		"properties": {
+			"id": 142,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88876253, 41.683987]
+		},
+		"properties": {
+			"id": 143,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88874024, 41.68399]
+		},
+		"properties": {
+			"id": 144,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887402, 41.683987]
+		},
+		"properties": {
+			"id": 145,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887197, 41.68399]
+		},
+		"properties": {
+			"id": 146,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8887196, 41.683987]
+		},
+		"properties": {
+			"id": 147,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886984, 41.68399]
+		},
+		"properties": {
+			"id": 148,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886984, 41.683987]
+		},
+		"properties": {
+			"id": 149,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886765, 41.68399]
+		},
+		"properties": {
+			"id": 150,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88867646, 41.683987]
+		},
+		"properties": {
+			"id": 151,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88870496, 41.683983]
+		},
+		"properties": {
+			"id": 152,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8889097, 41.68403]
+		},
+		"properties": {
+			"id": 153,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88890964, 41.684025]
+		},
+		"properties": {
+			"id": 154,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888884, 41.68403]
+		},
+		"properties": {
+			"id": 155,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88888836, 41.684025]
+		},
+		"properties": {
+			"id": 156,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88886714, 41.68403]
+		},
+		"properties": {
+			"id": 157,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888671, 41.684025]
+		},
+		"properties": {
+			"id": 158,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88884586, 41.68403]
+		},
+		"properties": {
+			"id": 159,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888458, 41.684025]
+		},
+		"properties": {
+			"id": 160,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888246, 41.68403]
+		},
+		"properties": {
+			"id": 161,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888245, 41.684025]
+		},
+		"properties": {
+			"id": 162,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88890976, 41.68401]
+		},
+		"properties": {
+			"id": 163,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8889097, 41.684006]
+		},
+		"properties": {
+			"id": 164,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888882, 41.68401]
+		},
+		"properties": {
+			"id": 165,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888881, 41.684006]
+		},
+		"properties": {
+			"id": 166,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888669, 41.68401]
+		},
+		"properties": {
+			"id": 167,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88886684, 41.684006]
+		},
+		"properties": {
+			"id": 168,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888456, 41.68401]
+		},
+		"properties": {
+			"id": 169,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888456, 41.684006]
+		},
+		"properties": {
+			"id": 170,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888244, 41.68401]
+		},
+		"properties": {
+			"id": 171,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88882434, 41.684006]
+		},
+		"properties": {
+			"id": 172,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88882416, 41.68399]
+		},
+		"properties": {
+			"id": 173,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888241, 41.683987]
+		},
+		"properties": {
+			"id": 174,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88884544, 41.68399]
+		},
+		"properties": {
+			"id": 175,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888454, 41.683987]
+		},
+		"properties": {
+			"id": 176,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88886666, 41.68399]
+		},
+		"properties": {
+			"id": 177,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88886666, 41.683987]
+		},
+		"properties": {
+			"id": 178,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88888794, 41.68399]
+		},
+		"properties": {
+			"id": 179,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88888794, 41.683987]
+		},
+		"properties": {
+			"id": 180,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8889092, 41.68399]
+		},
+		"properties": {
+			"id": 181,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88890916, 41.683987]
+		},
+		"properties": {
+			"id": 182,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88878214, 41.68401]
+		},
+		"properties": {
+			"id": 183,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88878214, 41.684006]
+		},
+		"properties": {
+			"id": 184,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8888456, 41.68398]
+		},
+		"properties": {
+			"id": 185,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88893056, 41.684036]
+		},
+		"properties": {
+			"id": 186,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8889305, 41.68403]
+		},
+		"properties": {
+			"id": 187,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88893, 41.683983]
+		},
+		"properties": {
+			"id": 188,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88892996, 41.68398]
+		},
+		"properties": {
+			"id": 189,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.889123, 41.684032]
+		},
+		"properties": {
+			"id": 190,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891231, 41.684036]
+		},
+		"properties": {
+			"id": 191,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890845, 41.684032]
+		},
+		"properties": {
+			"id": 192,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890846, 41.684036]
+		},
+		"properties": {
+			"id": 193,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88904643, 41.684032]
+		},
+		"properties": {
+			"id": 194,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890465, 41.684036]
+		},
+		"properties": {
+			"id": 195,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900906, 41.684032]
+		},
+		"properties": {
+			"id": 196,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890091, 41.684036]
+		},
+		"properties": {
+			"id": 197,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891229, 41.68402]
+		},
+		"properties": {
+			"id": 198,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890844, 41.68402]
+		},
+		"properties": {
+			"id": 199,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890463, 41.68402]
+		},
+		"properties": {
+			"id": 200,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900894, 41.68402]
+		},
+		"properties": {
+			"id": 201,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88912284, 41.684017]
+		},
+		"properties": {
+			"id": 202,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890844, 41.684017]
+		},
+		"properties": {
+			"id": 203,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88904625, 41.684017]
+		},
+		"properties": {
+			"id": 204,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890089, 41.684017]
+		},
+		"properties": {
+			"id": 205,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891228, 41.68401]
+		},
+		"properties": {
+			"id": 206,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890843, 41.68401]
+		},
+		"properties": {
+			"id": 207,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890462, 41.68401]
+		},
+		"properties": {
+			"id": 208,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900876, 41.68401]
+		},
+		"properties": {
+			"id": 209,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891227, 41.684002]
+		},
+		"properties": {
+			"id": 210,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890842, 41.684002]
+		},
+		"properties": {
+			"id": 211,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88904613, 41.684006]
+		},
+		"properties": {
+			"id": 212,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900876, 41.684006]
+		},
+		"properties": {
+			"id": 213,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891226, 41.683994]
+		},
+		"properties": {
+			"id": 214,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88908416, 41.683994]
+		},
+		"properties": {
+			"id": 215,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.889046, 41.683994]
+		},
+		"properties": {
+			"id": 216,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900864, 41.683994]
+		},
+		"properties": {
+			"id": 217,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88912255, 41.68399]
+		},
+		"properties": {
+			"id": 218,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890841, 41.68399]
+		},
+		"properties": {
+			"id": 219,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88904595, 41.68399]
+		},
+		"properties": {
+			"id": 220,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890086, 41.68399]
+		},
+		"properties": {
+			"id": 221,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891225, 41.68398]
+		},
+		"properties": {
+			"id": 222,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.889084, 41.68398]
+		},
+		"properties": {
+			"id": 223,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88904583, 41.68398]
+		},
+		"properties": {
+			"id": 224,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900846, 41.683983]
+		},
+		"properties": {
+			"id": 225,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8891224, 41.683975]
+		},
+		"properties": {
+			"id": 226,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890839, 41.683975]
+		},
+		"properties": {
+			"id": 227,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88904583, 41.683975]
+		},
+		"properties": {
+			"id": 228,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88900846, 41.683975]
+		},
+		"properties": {
+			"id": 229,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8890143, 41.683975]
+		},
+		"properties": {
+			"id": 230,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8894236, 41.684036]
+		},
+		"properties": {
+			"id": 236,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88941765, 41.684036]
+		},
+		"properties": {
+			"id": 237,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88936347, 41.684036]
+		},
+		"properties": {
+			"id": 238,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88935757, 41.684036]
+		},
+		"properties": {
+			"id": 239,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8893091, 41.68404]
+		},
+		"properties": {
+			"id": 240,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8893032, 41.68404]
+		},
+		"properties": {
+			"id": 241,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8894379, 41.684]
+		},
+		"properties": {
+			"id": 242,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.889438, 41.684002]
+		},
+		"properties": {
+			"id": 243,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8893112, 41.68396]
+		},
+		"properties": {
+			"id": 244,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8893053, 41.68396]
+		},
+		"properties": {
+			"id": 245,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88936144, 41.68396]
+		},
+		"properties": {
+			"id": 246,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88935554, 41.68396]
+		},
+		"properties": {
+			"id": 247,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8892869, 41.68402]
+		},
+		"properties": {
+			"id": 248,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88928694, 41.684025]
+		},
+		"properties": {
+			"id": 249,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8892509, 41.684025]
+		},
+		"properties": {
+			"id": 250,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8892508, 41.68402]
+		},
+		"properties": {
+			"id": 251,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8892867, 41.684006]
+		},
+		"properties": {
+			"id": 252,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88928664, 41.684002]
+		},
+		"properties": {
+			"id": 253,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88925064, 41.684006]
+		},
+		"properties": {
+			"id": 254,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88925064, 41.684002]
+		},
+		"properties": {
+			"id": 255,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8892504, 41.683983]
+		},
+		"properties": {
+			"id": 256,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88925034, 41.683975]
+		},
+		"properties": {
+			"id": 257,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88928646, 41.683983]
+		},
+		"properties": {
+			"id": 258,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8892864, 41.683975]
+		},
+		"properties": {
+			"id": 259,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8893241, 41.683975]
+		},
+		"properties": {
+			"id": 260,
+			"ocupacion": 0,
+			"tipoEspacio": "LABORATORIO",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88863254, 41.683796]
+		},
+		"properties": {
+			"id": 365,
+			"ocupacion": 0,
+			"tipoEspacio": "CAFETERIA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.8886266, 41.683796]
+		},
+		"properties": {
+			"id": 366,
+			"ocupacion": 0,
+			"tipoEspacio": "CAFETERIA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-0.88861734, 41.683643]
+		},
+		"properties": {
+			"id": 367,
+			"ocupacion": 0,
+			"tipoEspacio": "CAFETERIA",
+			"tipoPiso": "PISO_0",
+			"tipoEdificio": "ADA_BYRON"
+		}
+	}]
+}

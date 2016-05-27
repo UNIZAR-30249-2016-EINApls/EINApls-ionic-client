@@ -10,12 +10,13 @@ angular.module('starter.services', [])
                 L.latLng(41.6830, -0.8895)
             ),
             min_zoom: 17,
+            apiName: 'ADA_BYRON',
             floors: [
-                { name: '1st floor', wmsLayer: 'einapls:adabyron_0' },
-                { name: '2nd floor', wmsLayer: 'einapls:adabyron_1' },
-                { name: '3rd floor', wmsLayer: 'einapls:adabyron_2' },
-                { name: '4th floor', wmsLayer: 'einapls:adabyron_3' },
-                { name: '5th floor', wmsLayer: 'einapls:adabyron_4' }
+                { name: '1st floor', wmsLayer: 'einapls:adabyron_0', apiEndpoint: 'PISO_0' },
+                { name: '2nd floor', wmsLayer: 'einapls:adabyron_1', apiEndpoint: 'PISO_1' },
+                { name: '3rd floor', wmsLayer: 'einapls:adabyron_2', apiEndpoint: 'PISO_2' },
+                { name: '4th floor', wmsLayer: 'einapls:adabyron_3', apiEndpoint: 'PISO_3' },
+                { name: '5th floor', wmsLayer: 'einapls:adabyron_4', apiEndpoint: 'PISO_4' }
             ]
         },
         TORRES_QUEVEDO: {
@@ -25,11 +26,12 @@ angular.module('starter.services', [])
                 L.latLng(41.6830, -0.8883)
             ),
             min_zoom: 17,
+            apiName: 'TORRES_QUEVEDO',
             floors: [
-                { name: '1st floor', wmsLayer: 'einapls:torres_0' },
-                { name: '2nd floor', wmsLayer: 'einapls:torres_1' },
-                { name: '3rd floor', wmsLayer: 'einapls:torres_2' },
-                { name: '4th floor', wmsLayer: 'einapls:torres_3' }
+                { name: '1st floor', wmsLayer: 'einapls:torres_0', apiName: 'PISO_0' },
+                { name: '2nd floor', wmsLayer: 'einapls:torres_1', apiName: 'PISO_1' },
+                { name: '3rd floor', wmsLayer: 'einapls:torres_2', apiName: 'PISO_2' },
+                { name: '4th floor', wmsLayer: 'einapls:torres_3', apiName: 'PISO_3' }
             ]
         },
         BETANCOURT: {
@@ -39,11 +41,12 @@ angular.module('starter.services', [])
                 L.latLng(41.6830, -0.8855)
             ),
             min_zoom: 17,
+            apiName: 'BETANCOURT',
             floors: [
-                { name: '1st floor', wmsLayer: 'einapls:betan_0' },
-                { name: '2nd floor', wmsLayer: 'einapls:betan_1' },
-                { name: '3rd floor', wmsLayer: 'einapls:betan_2' },
-                { name: '4th floor', wmsLayer: 'einapls:betan_3' }
+                { name: '1st floor', wmsLayer: 'einapls:betan_0', apiName: 'PISO_0' },
+                { name: '2nd floor', wmsLayer: 'einapls:betan_1', apiName: 'PISO_1' },
+                { name: '3rd floor', wmsLayer: 'einapls:betan_2', apiName: 'PISO_2' },
+                { name: '4th floor', wmsLayer: 'einapls:betan_3', apiName: 'PISO_3' }
             ]
         }
     }
@@ -75,7 +78,7 @@ angular.module('starter.services', [])
                         );
                     }
                 });
-                $http.get('http://localhost:8888/espacios/PISO_0/ADA_BYRON').then(
+                $http.get('http://localhost:8888/espacios/' + item.apiName + '/' + info.apiName).then(
                     function(response) { vectorSpaces.addData(response.data); },
                     function(err) { console.log('Something bad happened', err); }
                 );
@@ -85,7 +88,7 @@ angular.module('starter.services', [])
                         // Space markers
                         vectorSpaces,
                         // WMS
-                        new L.tileLayer.wms('http://192.168.1.45:8080/geoserver/eina-pls/wms', {
+                        new L.tileLayer.wms('http://85.251.93.32:8080/geoserver/eina-pls/wms', {
                             layers: item.wmsLayer,
                             format: 'image/png',
                             transparent: true,
